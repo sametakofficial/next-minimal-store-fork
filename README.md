@@ -24,3 +24,8 @@ Product images were generated with Midjourney.
 ## Performance
 
 ![Lighthouse Scores](https://github.com/user-attachments/assets/2200524a-6d85-480b-a523-cc0b8b4a681d)
+
+## Other Resources
+
+- Want to hook up the cart to Shopify with optimistic UI? Check out [Next.js Commerce](https://github.com/vercel/commerce).
+- Want to hook up the cart to Stripe? Check out my [SaaS Starter](https://github.com/leerob/next-saas-starter).
