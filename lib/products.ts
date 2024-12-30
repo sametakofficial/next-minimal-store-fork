@@ -4,6 +4,8 @@ export interface Product {
   image: string;
 }
 
+// Product images were generated with Midjourney
+// and are stored in a public Vercel Blob storage bucket
 export const products: Product[] = [
   {
     id: 'ts-01-white',

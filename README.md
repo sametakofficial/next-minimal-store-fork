@@ -2,7 +2,11 @@
 
 # Nextzy - Minimal Ecommerce Store with Next.js
 
-This is a clone of the Yeezy store built with Next.js.
+This is a clone of the Yeezy store built with Next.js, Tailwind CSS, shadcn/ui, and Motion.
+
+Product images were generated with Midjourney.
+
+![Demo Video](https://github.com/user-attachments/assets/3c9c6e6b-888b-475c-a96e-ef790dc82a95)
 
 ## Features
 
@@ -16,3 +20,7 @@ This is a clone of the Yeezy store built with Next.js.
 - [yeezy.com](https://yeezy.com) for design and inspiration
 - [@mds](https://x.com/mds/status/1872040592383025516)
 - [@moore](https://x.com/Moore/status/1872047802441949581)
+
+## Performance
+
+![Lighthouse Scores](https://github.com/user-attachments/assets/2200524a-6d85-480b-a523-cc0b8b4a681d)
