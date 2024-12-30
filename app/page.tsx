@@ -9,7 +9,7 @@ import { ProductImage } from '@/components/product-image';
 
 export default function Page() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
-  const [isPending, startTransition] = useTransition();
+  const [_, startTransition] = useTransition();
 
   const handleProductClick = (product: Product) => {
     startTransition(() => {
@@ -73,37 +73,19 @@ export default function Page() {
           transition={{ duration: 0.3 }}
         >
           {products.map((product) => (
-            <motion.div
+            <div
               key={product.id}
               className="group cursor-pointer"
               onClick={() => handleProductClick(product)}
-              animate={{
-                opacity: selectedProduct
-                  ? selectedProduct.id === product.id
-                    ? 1
-                    : 0
-                  : 1,
-              }}
-              transition={{ duration: 0.3 }}
             >
               <ProductImage
                 product={product}
                 layoutId={`product-image-${product.id}`}
               />
-              <motion.p
-                className="font-medium text-center font-mono uppercase"
-                animate={{
-                  opacity: selectedProduct
-                    ? selectedProduct.id === product.id
-                      ? 1
-                      : 0
-                    : 1,
-                }}
-                transition={{ duration: 0.2 }}
-              >
+              <p className="font-medium text-center font-mono uppercase">
                 {product.id.split('-').slice(0, -1).join('-')}
-              </motion.p>
-            </motion.div>
+              </p>
+            </div>
           ))}
         </motion.div>
 
