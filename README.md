@@ -6,7 +6,7 @@ This is a clone of the Yeezy store built with Next.js, Tailwind CSS, shadcn/ui, 
 
 Product images were generated with Midjourney.
 
-![Demo Video](https://github.com/user-attachments/assets/3c9c6e6b-888b-475c-a96e-ef790dc82a95)
+<video src="https://github.com/user-attachments/assets/3c9c6e6b-888b-475c-a96e-ef790dc82a95" controls></video>
 
 ## Features
 
