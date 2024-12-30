@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { notFound, redirect } from 'next/navigation';
 import { getProductById } from '@/lib/products';
 import { AddToCart } from '@/components/add-to-cart';

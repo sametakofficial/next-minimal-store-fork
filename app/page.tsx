@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, useTransition } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'motion/react';
 import { products, Product } from '@/lib/products';
 import { Header } from '@/components/header';
 import { AddToCart } from '@/components/add-to-cart';
