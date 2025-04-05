@@ -9,7 +9,7 @@ interface ProductImageProps {
   maxHeight?: string;
   className?: string;
   layoutId?: string;
-}
+} 
 
 export function ProductImage({
   product,

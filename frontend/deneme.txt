@@ -1,0 +1,39 @@
+{
+  "cloudflare": {
+    "Account": {
+      "Email": "sametakoffical@hotmail.com",
+      "Registration": {
+        "body": {
+          "status": "valid",
+          "contact": [
+            "mailto:sametakoffical@hotmail.com"
+          ]
+        },
+        "uri": "https://acme-v02.api.letsencrypt.org/acme/acct/2068231167"
+      },
+      "PrivateKey": "MIIJKgIBAAKCAgEA2fsXV4C4+eXChO7qmDYiOzuNslqRmAxocfN2Q71OtjfVBjXHB2ojzM05Dpta/Nn9qq+4dJW4DsUvndtWXAAEqXohnzDCck9PRNGOjHXlLzK0HyU+RcTBtJ+S52zRINDIeTsqN8Pl33GjWhj4hp9QwA1LznK89aUjqjyykDYYSIu>
+      "KeyType": "4096"
+    },
+    "Certificates": [
+      {
+        "domain": {
+          "main": "edge.sametak.com"
+        },
+        "certificate": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUY4VENDQk5tZ0F3SUJBZ0lTQkZnNG91N1RhY1Nha2ZRNzRRQUR4Q2hvTUEwR0NTcUdTSWIzRFFFQkN3VUEKTURNeEN6QUpCZ05WQkFZVEFsVlRNUll3RkFZRFZRUUtFdzFNWlhRbmN5QkZi>
+        "key": "LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlKS1FJQkFBS0NBZ0VBdGRleUp0d0FTdnhjSFVBYml3L21WZlkxNDg3eFJXYXhITEpleGZ3NWVqSTlzcUk3CnJ2a0RCQklTQ3JYcWU2cHF1Q3dNa05DTlJUTGMyOHBnWkQwbithalF2U3dOWWhM>
+        "Store": "default"
+      },
+      {
+        "domain": {
+          "main": "sametak.com",
+          "sans": [
+            "*.sametak.com"
+          ]
+        },
+        "certificate": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUY5VENDQk4yZ0F3SUJBZ0lTQk1SUGJ0T2FnVVIyUmJqaTZjcjBFOHpyTUEwR0NTcUdTSWIzRFFFQkN3VUEKTURNeEN6QUpCZ05WQkFZVEFsVlRNUll3RkFZRFZRUUtFdzFNWlhRbmN5QkZi>
+        "key": "LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlKS1FJQkFBS0NBZ0VBeERWcmhxVFhmTDc1enRWbWlXWjJCTnlFZkVsbmtsY2ZNblNDOHFyeHhRdTFNY2VGCld1YU9zZGErTkQ1STN5SmtoT0Vldzl2OGUvUGIvQnRsaXZLek9EMzNxR1RNM2dp>
+        "Store": "default"
+      }
+    ]
+  }
+}
